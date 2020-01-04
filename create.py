@@ -31,8 +31,8 @@ def newProjectDirectory(projectName):
 def webNavigation(projectName):
     browser = webdriver.Firefox()
     url = 'https://github.com/login'
-    username = 'renaudsennon@hotmail.com'
-    password = 'Q1G%tI3UXnj8'
+    username = ''
+    password = ''
 
     browser.get(url)
 
